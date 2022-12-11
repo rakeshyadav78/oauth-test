@@ -1,0 +1,30 @@
+#headerNav {
+    background-color: #FFFFFF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+
+
+
+}
+
+#headerNav .nav .nav-item .nav-link {
+    color: #8a0cc9;
+    font-size: large;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+}
+
+
+#headerNav .nav .nav-item a.active {
+    /* color: black; */
+    /* font-weight: bold; */
+}
+
+#headerNav .nav .nav-item a:hover {
+    /* color: black; */
+    /* font-weight: bold; */
+    list-style: circle;
+}
